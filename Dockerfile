@@ -2,4 +2,4 @@
 FROM nginx:alpine
 
 # Copy HTML site files to Nginx's web root
-COPY site/ /usr/share/nginx/html
+COPY nginx-static-site/site/ /usr/share/nginx/html
