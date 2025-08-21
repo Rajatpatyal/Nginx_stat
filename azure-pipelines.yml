@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: 'ec602907-9759-4bfb-8fd5-d05c7577eac9'
   imageRepository: 'rajatpatyalnginxstat'
   containerRegistry: 'pescollege.azurecr.io'
-  dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
+  dockerfilePath: '$(Build.SourcesDirectory)/nginx-static-site/Dockerfile'
   tag: '$(Build.BuildId)'
 
   
